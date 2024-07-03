@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import Model.DAOClass;
 import Model.DTOClass;
-@WebServlet(urlPatterns = {"/registerlink","/userdetailslink","/updateuserlink"})
+@WebServlet(urlPatterns {"/registerlink","/userdetailslink","/updateuserlink"})
 public class ServletController extends HttpServlet  {
 
     @Override
@@ -41,7 +41,7 @@ public class ServletController extends HttpServlet  {
 		DAOClass d=new DAOClass();
 		int result=d.updateUser(id,name);
 
-	}
+	
 
 
 	private void getUserDetails(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
