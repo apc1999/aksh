@@ -46,7 +46,7 @@ public class DAOClass {
         java.sql.Statement stmt = null;
         ResultSet rs = null;
         ArrayList<DTOClass> userList = new ArrayList<>();
-
+	system.out("this);
         String query = "SELECT * FROM userdetails";
         try {
             stmt = con.createStatement();
