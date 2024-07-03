@@ -2,7 +2,7 @@ package Model;
 
 public class DTOClass {
 	private int id;
-	private String name;
+	
 	public DTOClass(int id, String name) {
 		super();
 		this.id = id;
